@@ -81,7 +81,7 @@ Visualization of Predicted Labels on test set :- </br>
 
 
 
-### ResNet50V2
+### ResNet50V2🌟
 
 Implementing transfer learning with the ResNet50V2 model allows us to benefit from pre-trained weights, significantly reducing the training duration necessary for image classification tasks. This strategy is particularly advantageous when dealing with limited training data, as we can leverage the comprehensive representations learned by the base model from extensive datasets like ImageNet.
 
@@ -97,7 +97,7 @@ Visualization of Predicted Labels on test set :- </br>
 
 
 
-### InceptionV3
+### InceptionV3✨
 When implementing the InceptionV3 model in code, we leverage its powerful architecture to enhance our image classification tasks. By loading the pre-trained InceptionV3 model with weights from the ImageNet dataset, we benefit from its extensive knowledge. 
 
 **Reason for choosing :-** 
@@ -111,7 +111,7 @@ Visualization of Predicted Labels on test set :- </br>
 ![alt text](../Images/InceptionV3_predictions/988c3a1f-cd99-4d61-b395-0b2617891bea.png)
 
 
-### DenseNet121
+### DenseNet121📃
 
 When implementing the DenseNet121 model in code, we leverage its densely connected architecture to enhance our image classification tasks. By loading the pre-trained DenseNet121 model with weights from the ImageNet dataset, we benefit from its extensive knowledge.
 
