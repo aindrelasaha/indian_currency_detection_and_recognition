@@ -1,4 +1,4 @@
-# Indian Currency Detection and Recognition
+# Indian Currency Detection and Recognition💰🪙💵
 
 ## 🎯 Goal
 The main purpose of this project is to **classify 7 different indian currencies** from the dataset (mentioned below) using various image detection/recognition models and comparing their accuracy.
@@ -15,15 +15,15 @@ This project involves the comparative analysis of **Five** Keras image detection
 
 ## 🧮 What I had done!
 
-### 1. Data Loading and Preparation:
+### 1. Data Loading and Preparation🗃️:
     Loaded the dataset containing image paths and corresponding labels into a pandas DataFrame for easy manipulation and analysis.
 
-### 2. Exploratory Data Analysis (EDA):
+### 2. Exploratory Data Analysis (EDA)📊:
     Bar Chart for Label Distribution: Created a bar chart to visualize the frequency distribution of different labels in the dataset.
 
     Pie Chart for Label Distribution: Generated a pie chart to represent the proportion of each label in the dataset.
 
-### 3. Data Analysis:
+### 3. Data Analysis📈📉:
     Counted the number of unique image paths to ensure data uniqueness and quality.
         Analyzed the distribution of image paths by label for the top 20 most frequent paths.
         Displayed the number of unique values for each categorical column to understand data variety.
@@ -35,7 +35,7 @@ This project involves the comparative analysis of **Five** Keras image detection
         Iterated through multiple models (VGG16, ResNet50 , Xception) saved in a directory and made predictions on the test dataset.
         Saved the predictions to CSV files for further analysis and comparison.
 
-### 5. Model Prediction Visualization:
+### 5. Model Prediction Visualization🌟:
     Loaded models and visualized their predictions on a sample set of test images to qualitatively assess model performance.
         Adjusted image preprocessing for models requiring specific input sizes (e.g., 299x299 for Xception).
 
@@ -43,7 +43,7 @@ This project involves the comparative analysis of **Five** Keras image detection
 
 Trained the dataset on various models , each of their summary is as follows :-
 
-### Xception
+### Xception❗
 
 When implementing the Xception model in code, we leverage its sophisticated architecture to bolster our image classification tasks. By loading the pre-trained Xception model with weights from the ImageNet dataset, we harness its comprehensive knowledge.
 
@@ -62,7 +62,7 @@ Visualization of Predicted Labels on test set :- </br>
 
 
 
-### NASNetMobile
+### NASNetMobile📱
 
 Incorporating the NASNetMobile model into our codebase brings a wealth of advantages to our image processing workflows. By initializing the pre-trained NASNetMobile model with weights from the ImageNet dataset, we tap into its profound understanding of visual data.
 
@@ -149,7 +149,7 @@ A pie chart illustrating the distribution of labels in the training dataset. The
 
 ![alt text](../Images/pie.png)
 
-### Image paths distribution :-
+### Image paths distribution🌟 :-
  Visualizes the distribution of top 20 image paths by label, displays unique values in categorical columns.
 
 ![alt text](../Images/image_path.png)
